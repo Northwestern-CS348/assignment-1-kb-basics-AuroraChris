@@ -23,7 +23,7 @@ class KnowledgeBase(object):
         Args:
             fact (Fact or Rule): Fact or Rule we're asserting in the format produced by read.py
         """
-        if fact.name == "fact":
+        if fact.name == "fact" and (not self.facts or self.kb_ask(fact)):
             self.facts.append(fact)
         
     def kb_ask(self, fact):
