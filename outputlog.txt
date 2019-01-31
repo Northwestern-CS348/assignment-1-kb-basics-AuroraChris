@@ -1,0 +1,51 @@
+TESTS WITH ERRORS 
+test05 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-basics/gradingtests.py", line 70, in test05
+    self.assertEqual(str(answer[0]), "?E : Nosliw")
+TypeError: 'bool' object is not subscriptable
+
+test06 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-basics/gradingtests.py", line 83, in test06
+    self.assertEqual(str(answer[0]), "?Y : sword")
+TypeError: 'bool' object is not subscriptable
+
+test07 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-basics/gradingtests.py", line 94, in test07
+    self.assertEqual(str(answer[0]), "?H : Hershey")
+TypeError: 'bool' object is not subscriptable
+
+test08 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-basics/gradingtests.py", line 105, in test08
+    self.assertEqual(str(answer[0]), "?S : sword")
+TypeError: 'bool' object is not subscriptable
+
+test09 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-basics/gradingtests.py", line 116, in test09
+    self.assertEqual(str(answer[0]), "?X1 : Ai, ?X2 : Hershey")
+TypeError: 'bool' object is not subscriptable
+
+test10 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-basics/gradingtests.py", line 128, in test10
+    self.assertEqual(str(answer[0]), "?X : Nosliw, ?Y : Uzna")
+TypeError: 'bool' object is not subscriptable
+
+-------------------------------
+TESTS FAILED  
+test02 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-basics/gradingtests.py", line 36, in test02
+    self.assertEqual(str(answer[1]), "?X : Uzna")
+AssertionError: '?X : Nosliw' != '?X : Uzna'
+- ?X : Nosliw
++ ?X : Uzna
+
+
+-------------------------------
+TESTS SKIPPED 
+-------------------------------
